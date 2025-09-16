@@ -1,0 +1,230 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.topmostbar
+{
+    background-color: navy;
+    color: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.border
+{
+border: 2px solid transparent;    
+}
+.border:hover
+{
+    border: 2px solid wheat;
+}
+
+.navigation
+{
+    height: 100px;
+    width: 800px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo
+{
+    /* background-color: red; */
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.logo i
+{
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+.logo p
+{
+font-size: 1.25rem;
+display: flex;
+align-items: center;
+}
+
+.heropart
+{
+    height: 700px;
+    /* background-color: red; */
+    background-image: url("/image2.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.midtopbar
+{
+    background-color: rgb(30, 30, 59) ;
+    color: white;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+
+}
+.midtopbar a
+{
+    color:white;
+    text-decoration: none;
+}
+
+.artistsec
+{
+    background-color: navy;
+    font-size: 1.25rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.showcasesection
+{
+    height: 900px;
+    background-color:rgb(160, 160, 207);
+    background-image: url("https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?cs=srgb&dl=pexels-kellie-churchman-371878-1001682.jpg&fm=jpg");
+    display: flex;
+    flex-wrap: wrap; 
+}
+.art 
+{
+    display: flex;
+    width: 30%;
+    margin-left: 20px;
+    justify-content: space-evenly;
+}
+ .box1
+{
+    height:250px ;
+    width: 250px;
+    /* border: 2px solid black; */
+    background-image: url("https://static01.nyt.com/images/2015/06/25/t-magazine/25nas-moss/25nas-moss-superJumbo.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.box2
+{
+    height:250px ;
+    width: 250px;
+    /* border: 2px solid black; */
+    background-image: url("https://wwd.com/wp-content/uploads/2019/08/snoh-aalegra-2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.box3
+{
+    height:250px ;
+    width: 250px;
+    /* border: 2px solid black; */
+    background-image: url("https://i.redd.it/nutjvnuwlxva1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.box4
+{
+    height:250px ;
+    width: 250px;
+    /* border: 2px solid black; */
+    background-image: url("https://i.guim.co.uk/img/media/b50fce564346d5fd77a656c6f8dbebddd005c1d8/0_153_7242_4345/master/7242.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=161ed36ba500b40c706ba35e289a1554");
+    background-size: cover;
+    background-position: center;
+    
+}
+.box5
+{
+    height:250px ;
+    width: 250px;
+    /* border: 2px solid black; */
+    background-image: url("https://www.shreyaghoshal.com/static/asset/images/shreya-image.png");
+    background-size: cover;
+    background-position: center;
+}
+.box6
+{
+    height:250px ;
+    width: 250px;
+    /* border: 2px solid black; */
+    background-image: url("https://globalnews.ca/wp-content/uploads/2019/03/gettyimages-1097521672.jpg?quality=65&strip=all&w=1200");
+    background-position: center;
+    background-size: cover;
+} 
+.boxx
+{
+    height:250px ;
+    width: 250px;
+    /* border: 2px solid black; */
+}
+h2:hover
+{
+    border: 2px solid transparent;
+}
+.boxx a
+{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: end;    
+}
+.boxx p
+{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.firstpanel
+{
+    background-color: navy;
+    height: 150px;
+}
+.panelinfo
+{
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.copyright
+{
+    height: 50px;
+    background-color:rgb(8, 8, 64);
+    display: block;
+    color: antiquewhite;
+    text-align: center;
+}
+@media (max-width: 750px)
+{
+    .art
+    {
+        width: 100%;
+    }
+    .navigation
+    {
+        flex-direction: column;
+    }
+}
+
+@media(min-width:480px)
+{
+    .topmostbar
+    {
+        font-size: 0.875rem;
+    }
+    .boxx p
+    {
+        font-size: 0.875rem;
+    }
+}
