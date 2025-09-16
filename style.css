@@ -62,7 +62,7 @@ align-items: center;
 {
     height: 700px;
     /* background-color: red; */
-    background-image: url("/image2.jpg");
+    background-image: url("image2.jpg");
     background-size: cover;
     background-position: center;
 
